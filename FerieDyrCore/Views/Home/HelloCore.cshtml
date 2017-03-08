@@ -1,0 +1,17 @@
+﻿@model FerieDyrCore.Models.HelloCoreModel
+@{
+    ViewData["Title"] = "Hello Core";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Message from core</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>ID: @Html.DisplayFor(model => model.HelloCoreModelId)</h2>
+        <h2>@Html.DisplayFor(model => model.Message)</h2>
+    </div>
+</div>
